@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JC's Personal Website</title>
+    <title>About Page</title>
     <style>
         body {
             font-family: Verdana, sans-serif;
@@ -93,9 +93,7 @@
     </style>
 </head>
 <body>
-    <div id="top-bar">
-        <h1>Welcome to jaychen.in</h1>
-    </div>
+    <!-- Your content goes here -->
     <div id="content">
       <nav>
       <ul>
@@ -105,40 +103,5 @@
           <li><a href="#contact">Contact</a></li>
       </ul>
       </nav>
-        <div id="greeting"></div>
-        <p style="font-size:24px; color: #F6F6F6;">
-            Hello! I'm Jay. Check out my <a href="https://github.com/jc01111">GitHub</a> for some of my projects.
-        </p>
-        <p style="font-size:24px; color: #F6F6F6;">
-            When I'm not coding, I enjoy creating music, playing tennis, roadtrip, and reading. Feel free to <a href="jaychencjw0920@gmail.com">contact me</a> if you'd like to collaborate or chat!
-        </p>
-        <p style="font-size:24px; color: #F6F6F6;">
-            I love Star Wars!!!
-        </p>
-        <div id="audio-player">
-            <!-- ?raw=true to make the link work-->
-            <audio controls>
-            <source src="https://github.com/JC01111/jc.github.io/blob/5a7d8272f6b3b7b64007b3c164f0a3f8644bb68c/Addicted%20beat.mp3?raw=true" type="audio/mpeg">
-            Your browser does not support the audio element.
-            </audio>
-        </div>
-
-        <a href="https://github.com/JC01111/jc.github.io/blob/2b2909aae83ed3714caa9f226d5362c96195339c/Resume_Jiawei_Chen.pdf" class="button">
-        My resume
-        </a>
-    </div>
-    <script>
-        // Simple JavaScript to display a greeting based on the time of day
-        const greetingElement = document.getElementById('greeting');
-        const currentHour = new Date().getHours();
-
-        if (currentHour < 12) {
-            greetingElement.textContent = "Good morning!";
-        } else if (currentHour < 18) {
-            greetingElement.textContent = "Good afternoon!";
-        } else {
-            greetingElement.textContent = "Good evening!";
-        }
-    </script>
 </body>
 </html>
