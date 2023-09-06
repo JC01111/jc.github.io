@@ -55,23 +55,33 @@
     .button:hover {
         background-color: #0056b3;
     }
+    #audio-player {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    }
     </style>
 </head>
 <body>
     <div id="content">
         <h1>Welcome to Jay's Personal Website</h1>
         <div id="greeting"></div>
-        <p style="font-size:30px;">
+        <p style="font-size:25px;">
             Hello! I'm Jay. Check out my <a href="https://github.com/jc01111">GitHub</a> for some of my projects.
         </p>
-        <p style="font-size:30px;">
+        <p style="font-size:25px;">
             When I'm not coding, I enjoy creating music, playing tennis, roadtrip, and reading. Feel free to <a href="jaychencjw0920@gmail.com">contact me</a> if you'd like to collaborate or chat!
         </p>
-        <!-- ?raw=true to make the link work-->
-        <audio controls>
-        <source src="https://github.com/JC01111/jc.github.io/blob/5a7d8272f6b3b7b64007b3c164f0a3f8644bb68c/Addicted%20beat.mp3?raw=true" type="audio/mpeg">
-        Your browser does not support the audio element.
-        </audio>
+
+        <div id="audio-player">
+            <!-- ?raw=true to make the link work-->
+            <audio controls>
+            <source src="https://github.com/JC01111/jc.github.io/blob/5a7d8272f6b3b7b64007b3c164f0a3f8644bb68c/Addicted%20beat.mp3?raw=true" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
         <a href="https://inst.eecs.berkeley.edu/~cs188/fa23/" class="button">
         Visit My Other Page
         </a>
